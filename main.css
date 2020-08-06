@@ -1,4 +1,10 @@
-.navbar-brand img {width: 140px}
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@700&display=swap');
+
+.header{
+    font-family: 'MuseoModerno', cursive;
+}
+
+.navbar-brand img {width: 140px;}
 
 .navbar-nav li{
     padding-right: 50px;
@@ -7,5 +13,8 @@
 background: #fcba03;
 border-radius: 1rem;
 transition: 1s;
-transform: translateY(5px);
-.nav-link {font-size: 1.1em !important}
+transform: translateY(-3px);
+}
+.nav-link {
+    font-size: 1.3em !important;  
+}
