@@ -3,5 +3,9 @@
 .navbar-nav li{
     padding-right: 50px;
 }
-
+.navbar-nav a:hover {
+background: #fcba03;
+border-radius: 1rem;
+transition: 1s;
+transform: translateY(5px);
 .nav-link {font-size: 1.1em !important}
