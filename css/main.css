@@ -1,0 +1,77 @@
+html{
+    overflow-x: hidden;
+}
+
+
+.section{
+    margin-top: 10em;
+    margin-bottom: 10em;
+}
+.section-one{
+    padding-top: 5em;
+    padding-bottom: 15em;
+    background-color: #ebebeb;
+}
+.navbar{
+    font-family: 'MuseoModerno', cursive;
+}
+.navbar-brand img {width: 140px;}
+
+.navbar-nav li{
+    padding-right: 60px;
+}
+.navbar-nav a:hover {
+background: #636269;
+border-radius: 1rem;
+transition: 1s;
+transform: translateY(3px);
+}
+
+}
+.nav-item {
+    font-size: 1.4em !important;
+    
+}
+.display-4{
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 0.3em;
+}
+.lead{
+font-weight: 900; 
+margin-bottom: 3em;
+font-family: 'Raleway', sans-serif;
+}
+
+.title-section{
+   margin-top: 5em;
+   font-size: 1em;
+    
+}
+.title-section p{
+    margin-left: 1em;
+    text-align: left; 
+    font-family: 'Raleway', sans-serif;
+}
+.title-section h3{
+
+font-family: 'Oswald', sans-serif;
+}
+@media (max-width: 768px){
+    .display-4{
+    font-size: 1.7em;
+    
+    }
+    .lead{
+        font-size: 0.9em;
+        margin-left: 3em;
+        text-align: left; 
+    }
+}
+@media (min-width: 2560px){
+    .title-section p{
+        font-size: 0.9em;
+        margin-left: 15em;
+        text-align: left; 
+    }
+
+
