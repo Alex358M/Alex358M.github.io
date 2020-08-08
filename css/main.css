@@ -1,0 +1,71 @@
+html{
+    overflow-x: hidden;
+}
+
+
+.section{
+    margin-top: 10em;
+    margin-bottom: 10em;
+}
+.section-one{
+    padding-top: 10em;
+    padding-bottom: 10em;
+    background-color: #ebebeb;
+}
+.section-one p {
+    text-align: left;   
+}
+.navbar{
+    font-family: 'MuseoModerno', cursive;
+}
+.navbar-brand img {width: 140px;}
+
+.navbar-nav li{
+    padding-right: 60px;
+}
+.navbar-nav a:hover {
+background: #636269;
+border-radius: 1rem;
+transition: 1s;
+transform: translateY(3px);
+}
+
+}
+.nav-item {
+    font-size: 1.4em !important;
+    
+}
+.display-4{
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 0.3em;
+}
+.lead{
+font-weight: 900; 
+margin-bottom: 3em;
+font-family: 'Quicksand', sans-serif;
+}
+
+.title-section h3, p{
+    
+    font-family: 'Quicksand', sans-serif;
+}
+.title-section p{
+    margin-top: 1em;
+    line-height: 2.5;
+    margin-bottom: 3em;
+}
+@media (max-width: 768px){
+    .display-4{
+    font-size: 1.7em;
+    
+    }
+    .lead{
+        font-size: 0.9em;
+        text-align: fixed;
+    }
+    .section-one{
+    text-align: left;
+
+}
+
+
