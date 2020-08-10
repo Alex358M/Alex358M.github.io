@@ -1,0 +1,102 @@
+/*Меню навигации*/
+.navbar-brand {
+    margin-left: 5em;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+}
+
+.nav-link {
+    font-size: 1.1em;
+    margin-left: 3em;
+    font-family: 'Podkova', serif;
+}
+
+
+/*Главный титул и текст*/
+.first h1 {
+    font-size: 4em;
+    margin-top: 2em;
+    letter-spacing: 5px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.first p {
+    margin-top: 1em;
+    font-size: 1.4em;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-bottom: 5em;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-bottom: 3em;
+}
+
+
+/*Удобства*/
+.service{
+    background-color: #e8e8e8;
+}
+
+.service-title{
+    padding-top: 1.5em;
+    font-size: 3em;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+.service-info{
+    margin-top: 4em;
+    margin-left: 1.2em;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.service-info h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif
+}
+
+
+@media (max-width: 575.98px) {
+    /*Меню навигации*/
+    .nav-link {
+        margin-left: 0em;
+    }
+    /**/
+    .service-title{
+        font-size: 1.5em;
+}
+    .service-info h3{
+         text-align: left;
+        font-size: 1.5em;
+    }
+    .service-info{
+        margin-left: 10%;
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 767.98px) {
+    /*Главный титул и текст*/
+    .first h1 {
+        font-size: 2em;
+        margin-top: 3em;
+        letter-spacing: 3px;
+    }
+    .first p {
+        font-size: 0.9em;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 991.98px) {
+    /*Меню навигации*/
+    .navbar-brand {
+        margin-left: 0em;
+    }
+    .nav-link {
+        margin-left: 0em;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    
+}
