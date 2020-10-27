@@ -1,0 +1,167 @@
+@back-ground: #FEEBC4;
+// variables
+main {
+    width: 100%;
+    height: 1000vh;
+    background: @back-ground;
+    font-family: Red Hat Display;
+}
+
+.map {
+    margin: 44px 50px;
+}
+
+.map__title h2 {
+    margin-left: 1em;
+    position: relative;
+    z-index: 1;
+    font-weight: bold;
+}
+
+.map__rec {
+    position: absolute;
+    z-index: 0;
+    top: 21px;
+    left: 60px;
+}
+
+.map__picture {
+    margin-top: 2em;
+    width: 35em;
+    height: 55em;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    border: 3px solid #2D1E01;
+}
+
+.map__picture iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+// all blocks 
+.blocks {
+    text-align: center;
+    margin-top: 7em;
+}
+
+.block__title_1 h3,
+.block__title_2 h3,
+.block__title_3 h3,
+.block__title_4 h3,
+{
+    position: relative;
+    z-index: 1;
+    font-weight: 900;
+}
+
+.block__icon_1,
+.block__icon_2,
+.block__icon_3,
+.block__icon_4,
+{
+    position: relative;
+    z-index: 1;
+}
+
+.block__text_1,
+.block__text_2,
+.block__text_3,
+.block__text_4,
+{
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 3;
+    letter-spacing: 0.06em;
+}
+
+// 1 block
+.block__1 {}
+
+.block__rec_1 {
+    position: absolute;
+    top: 0.8em;
+    left: 10.5em;
+    z-index: 0;
+}
+
+.block-cer_1 {
+    position: absolute;
+    bottom: 13.5em;
+    left: 7.3em;
+    z-index: 0;
+}
+
+// 2 block
+.block__2 {}
+
+.block__rec_2 {
+    position: absolute;
+    top: 0.8em;
+    left: 12.5em;
+    z-index: 0;
+}
+
+.block__icon_2 {}
+
+.block-cer_2 {
+    position: absolute;
+    bottom: 13.5em;
+    left: 7.3em;
+    z-index: 0;
+}
+
+// 3 block
+.block__3 {}
+
+.block__rec_3 {
+    position: absolute;
+    top: 0.8em;
+    left: 10.7em;
+    z-index: 0;
+}
+
+.block__icon_3 {}
+
+.block-cer_3 {
+    position: absolute;
+    bottom: 13.5em;
+    left: 7.3em;
+    z-index: 0;
+}
+
+// 4 block
+.block__4 {}
+
+.block__rec_4 {
+    position: absolute;
+    top: 0.8em;
+    left: 10.7em;
+    z-index: 0;
+}
+
+.block__icon_4 {}
+
+.block-cer_4 {
+    position: absolute;
+    bottom: 13.5em;
+    left: 7.3em;
+    z-index: 0;
+}
+@media (min-width: 320px) and (max-width: 375px) {
+    .map__picture{
+        width: 10em;
+        height: 1em;
+        height: 1em;
+    }
+    .block__rec_1 {
+    position: absolute;
+    top: 0.8em;
+    left: 10em;
+    z-index: 0;
+}
+}
