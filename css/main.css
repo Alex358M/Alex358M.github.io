@@ -1,0 +1,101 @@
+body {
+    background-color: #f1faee;
+}
+
+header {
+    text-align: center;
+}
+
+.header__title {
+    font-family: arial black;
+    color: #1d3557;
+    margin-top: 1em;
+    font-size: 5em;
+}
+
+.header__name {
+    font-family: Verdana, Tahoma, sans-serif;
+    margin-bottom: 1em;
+    color: #457b9d;
+}
+
+section {
+
+    margin-top: 3em;
+}
+
+.misha__img {
+    border-radius: 3em;
+
+}
+
+.misha__title {
+
+    margin-top: 0.5em;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.misha__des a {
+    text-decoration: none;
+
+}
+
+footer {
+    margin-bottom: 5em;
+}
+
+.misha__title,
+.misha__title::after {
+    animation-delay: 0;
+    animation-delay: var(--animation-delay, 4s);
+    animation-iteration-count: 1;
+    animation-iteration-count: var(--iterations, 1);
+    animation-duration: 800ms;
+    animation-duration: var(--duration, 800ms);
+    animation-fill-mode: both;
+    animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
+}
+
+.misha__title {
+
+    animation-name: text;
+    ;
+}
+
+.misha__title::after {
+
+    animation-name: revealer;
+}
+
+@keyframes text {
+    from {
+        clip-path: inset(0 100% 0 0);
+    }
+
+    to {
+        clip-path: inset(0 0 0 0);
+    }
+}
+
+@keyframes revealer {
+
+    0%,
+    50% {
+        transform-origin: 0 50%;
+    }
+
+    60%,
+    100% {
+        transform-origin: 100% 50%;
+    }
+
+
+    60% {
+        transform: scaleX(1);
+    }
+
+    100% {
+        transform: scaleX(0);
+    }
+}
