@@ -1,0 +1,91 @@
+
+.topnav{
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  top: 0;
+}
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  ul.topnav li {float: left;}
+  
+
+
+  ul li .spain, ul li .russia, ul li .concl{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  ul li .norway{
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.norway{
+    background-color: #06d6a0;
+    color: #333;
+   
+}
+
+.spain:hover{
+    background-color: #ffd166;
+    transition: 1s;
+    color: #333;
+}
+
+.russia:hover{
+    background-color: #ef476f;
+    transition: 1s;
+     color: #333;
+}
+
+.concl:hover{
+  background-color: #e5e5e5;
+  transition: 1s;
+   color: #333;
+}
+
+  
+  ul.topnav li.right {float: right;}
+  
+  @media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+  }
+.container{
+    margin: 2em 0;
+}
+  .norway-text{
+    font-family: 'Andika New Basic', sans-serif; 
+}
+
+ main{
+    background-color: #dffbf8;
+    padding: 2em 0;
+  }
+
+  .pic-prison{
+    border-radius: 10%;
+  }
+
+  .text-2{
+    margin: 3em;
+  
+  }
+
+  .text-2 img{
+    border-radius: 10%;
+  }
+

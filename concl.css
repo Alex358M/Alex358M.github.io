@@ -1,0 +1,78 @@
+
+.topnav{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    top: 0;
+  }
+  ul.topnav {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+     
+    }
+    
+    ul.topnav li {
+        
+      float: left;
+    }
+    
+  
+  
+    ul li .spain, ul li .norway, ul li .russia{
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+  
+    ul li .concl{
+      display: block;
+      color: #333;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+  .concl{
+      background-color: rgb(250, 250, 250);
+      color: #333;
+     
+  }
+  
+  .spain:hover{
+      background-color: #ffd166;
+      transition: 1s;
+      color: #333;
+  }
+  
+  .norway:hover{
+      background-color: #06d6a0;
+      transition: 1s;
+      color: #333;
+  }
+  
+  .russia:hover{
+    background-color: #ef476f;
+    transition: 1s;
+     color: #333;
+  }
+    
+    ul.topnav li.right {float: right;}
+    
+    @media screen and (max-width: 600px) {
+  
+      ul.topnav li.right, 
+      ul.topnav li {float: none;}
+    }
+  .container{
+      margin: 5em 0;
+  }
+
+  .img{
+      width: 100%;
+      height: 500px;
+}

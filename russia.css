@@ -1,0 +1,97 @@
+
+.topnav{
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  top: 0;
+}
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+   
+  }
+  
+  ul.topnav li {
+      
+    float: left;
+  }
+  
+
+
+  ul li .spain, ul li .norway, ul li .concl{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  ul li .russia{
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.russia{
+    background-color: #ef476f;
+    color: #333;
+   
+}
+
+.spain:hover{
+    background-color: #ffd166;
+    transition: 1s;
+    color: #333;
+}
+
+.norway:hover{
+    background-color: #06d6a0;
+    transition: 1s;
+    color: #333;
+}
+
+.concl:hover{
+  background-color: #e5e5e5;
+  transition: 1s;
+   color: #333;
+}
+  
+  ul.topnav li.right {float: right;}
+  
+  @media screen and (max-width: 600px) {
+
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+  }
+.container{
+    margin: 2em 0;
+}
+  .russia-text{
+    font-family: 'Andika New Basic', sans-serif; 
+}
+
+ main{
+    background-color:#eecfd6;;
+    padding: 2em 0;
+  }
+
+  .carousel-inner{
+    margin: 3em;
+  }
+
+  .q{
+    animation-delay: 1s;
+  }
+
+.womens{
+  border-radius: 10%;
+}
+
+.womens-main{
+  margin: 3em;
+}
